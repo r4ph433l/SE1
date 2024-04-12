@@ -5,10 +5,5 @@ public class Client extends RomanNumberTransformer {
         String result = "" + super.transformNumber(number);
         System.out.println("Die römische Schreibweise der Zahl " + number + " ist: " + result);
     }
-    
-    public static void main(String[] args) {
-    	Client c = new Client();
-    	c.printTransformation(123);
-    }
 
 }
